@@ -1,1 +1,4 @@
 ultimate-react-course-main
+*.env
+node_modules
+dist
