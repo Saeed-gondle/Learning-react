@@ -1,0 +1,17 @@
+node_modules
+build
+dist
+coverage
+.git
+```
+
+4. To enable format-on-save in VS Code, create or update your VSCode workspace settings:
+
+````json
+// filepath: d:\Code\Learning\React\.vscode\settings.json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "prettier.requireConfig": true
+}
