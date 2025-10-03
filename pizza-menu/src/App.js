@@ -1,6 +1,7 @@
 import './index.css';
 import Pizza from './Pizza';
 import pizzaData from './data';
+const x = 1;
 function Header() {
   return (
     <header className='header'>
@@ -20,8 +21,8 @@ function Menu() {
 }
 function Footer() {
   return (
-    <footer className='footer'>
-      <p>© 2023 Pizza Menu</p>
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Pizza Menu</p>
     </footer>
   );
 }
