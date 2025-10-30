@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Changed: Added /client
 // import App from './App-counter-clock';
-import App from './App-flash-cards.js';
+// import App from './App-flash-cards.js';
+import App from './App-faq.js';
 
 const root = document.getElementById('root');
 ReactDOM.createRoot(root).render(
