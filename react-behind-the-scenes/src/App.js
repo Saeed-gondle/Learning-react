@@ -41,13 +41,13 @@ function Tabbed({ content }) {
           />
         ))}
 
-        {/* <Tab num={0} activeTab={activeTab} onClick={setActiveTab} />
-        <Tab num={1} activeTab={activeTab} onClick={setActiveTab} />
-        <Tab num={2} activeTab={activeTab} onClick={setActiveTab} />
-        <Tab num={3} activeTab={activeTab} onClick={setActiveTab} /> */}
+        {/* <Tab num={0} key={content.at(0).summary} activeTab={activeTab} onClick={setActiveTab} />
+        <Tab num={1} key={content.at(1).summary} activeTab={activeTab} onClick={setActiveTab} />
+        <Tab num={2} key={content.at(2).summary} activeTab={activeTab} onClick={setActiveTab} /> */}
+        <Tab num={3} key={3} activeTab={activeTab} onClick={setActiveTab} />
       </div>
       {activeTab <= 2 ? (
-        <TabContent item={content.at(activeTab)} />
+        <TabContent item={content.at(activeTab)} key={content.at(activeTab).summary} />
       ) : (
         <DifferentContent />
       )}
