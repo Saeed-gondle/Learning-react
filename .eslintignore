@@ -1,0 +1,8 @@
+node_modules/
+build/
+dist/
+*.config.js
+public/
+# Ignore folders with their own ESLint config
+**/final/
+**/starter/
