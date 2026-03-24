@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "react-app"
+  ],
+  "rules": {
+    "react/prop-types": "off"
+  }
+}
